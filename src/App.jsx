@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.css';
 import './normalize.css';
+import Landing from './components/Landing';
 
-function App() {
-  return (
-    <div className="App">
-      <p>pragyakar.github.io</p>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <Landing />
+      </div>
+    );
+  }
 }
 
 export default App;
