@@ -1,9 +1,13 @@
 import React from 'react';
 
-const Landing = () => {
-  return (
-    <p>pragyakar.github.io</p>
-  );
-}
+const Landing = () => (
+  <div className="landing">
+    <div className="box">
+      <div className="title-box">
+        <span>This is my Title</span>
+      </div>
+    </div>
+  </div>
+)
 
 export default Landing;
