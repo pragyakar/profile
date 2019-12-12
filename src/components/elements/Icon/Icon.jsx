@@ -10,6 +10,7 @@ const Icon = ({icon, link, name}) => (
       target={link !== '' ? "_blank" : ''}
       className="fa-icon"
       data-tip={name}
+      data-delay-show={'200'}
     >
       <ReactTooltip place="bottom" effect="solid"/>
       
