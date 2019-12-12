@@ -6,6 +6,8 @@ const Landing = () => (
       <div className="title-box">
         <span>This is my Title</span>
       </div>
+      <div className="icons-box">
+      </div>
     </div>
   </div>
 )
