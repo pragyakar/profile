@@ -10,7 +10,7 @@ const Links = () => (
     <Icon name={'Read my Blog'} link={'https://medium.com/@pragyakar'} icon={fab.faMedium} />
     <Icon name={'LinkedIn'} link={'https://www.linkedin.com/in/pragyakar/'} icon={fab.faLinkedin} />
     <Icon name={'Write to me'} link={'mailto:pragyakarj@gmail.com'} icon={fa.faMailBulk} />
-    <Icon name={'Download CV'} link={''} icon={fa.faFile} />
+    <Icon name={'View my CV'} link={'/PragyakarJoshiCV.pdf'} icon={fa.faFile} />
   </div>
 );
 

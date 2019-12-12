@@ -5,7 +5,7 @@ const Landing = () => (
   <div className="landing">
     <div className="content-box">
       <div className="title-box">
-        <span>my name here</span>
+        <span>pragyakar</span>
       </div>
       <Links />
     </div>
