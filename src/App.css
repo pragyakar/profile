@@ -17,7 +17,12 @@
   margin: 0px auto;
   background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
   color: white;
+  opacity: 0;
+  transition: 2.5s ease;
+}
 
+.visible {
+  opacity: 1;
 }
 
 .title-box {
