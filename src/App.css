@@ -1,3 +1,12 @@
+:root {
+  --special-font: 'Dawning of a New Day', cursive;
+  --gray: #707070;
+  --seasalt: #DBEBEB;
+  --orange: #FEE4BD;
+  --macha: #C8ECA4;
+  --peach: #FFC3BD;
+}
+
 .pr-landing {
   display: flex;
   flex-direction: column;
@@ -7,9 +16,9 @@
 }
 
 .pr-landing__title {
-  font-family: 'Dawning of a New Day', cursive;
+  font-family: var(--special-font);
   font-size: 48pt;
-  color: #707070;
+  color: var(--gray);
 }
 
 .pr-links {
@@ -20,9 +29,11 @@
 }
 
 .pr-links__icon {
-  color: #707070;
+  color: var(--gray);
+  transition: 0.1s ease-in-out;
 }
 
 .pr-links__icon:hover {
   cursor: pointer;
+  color: var(--peach);
 }
