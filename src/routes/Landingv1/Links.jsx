@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from '../../elements/Icon';
+import Icon from '../../components/Icon/Icon';
 
 import * as fa from '@fortawesome/free-solid-svg-icons'
 import * as fab from '@fortawesome/free-brands-svg-icons';
