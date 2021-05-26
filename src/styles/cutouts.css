@@ -1,0 +1,54 @@
+
+.bottom-ripple-cutout {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border-top-left-radius: 500px;
+}
+
+.top-ripple-cutout {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom-right-radius: 500px;
+}
+
+.ripple-macha {
+  background-color: var(--macha);
+}
+
+.ripple-peach {
+  background-color: var(--peach);
+}
+
+.ripple-seasalt {
+  background-color: var(--seasalt);
+}
+
+.ripple-orange {
+  background-color: var(--orange);
+}
+
+.ripple-cutout-xs {
+  height: 250px;
+  width: 250px;
+  opacity: 80%;
+}
+
+.ripple-cutout-sm {
+  height: 300px;
+  width: 300px;
+  opacity: 60%;
+}
+
+.ripple-cutout-md {
+  height: 350px;
+  width: 350px;
+  opacity: 50%;
+}
+
+.ripple-cutout-lg {
+  height: 400px;
+  width: 400px;
+  opacity: 40%;
+}
