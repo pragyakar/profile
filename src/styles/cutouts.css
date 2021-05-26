@@ -1,0 +1,109 @@
+.bottom-ripple-cutout {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border-top-left-radius: 500px;
+}
+
+.top-ripple-cutout {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom-right-radius: 500px;
+}
+
+.ripple-macha {
+  background-color: var(--macha);
+}
+
+.ripple-peach {
+  background-color: var(--peach);
+}
+
+.ripple-seasalt {
+  background-color: var(--seasalt);
+}
+
+.ripple-orange {
+  background-color: var(--orange);
+}
+
+.ripple-cutout-xs {
+  height: 250px;
+  width: 250px;
+  opacity: 70%;
+  animation: fadeInXs linear 1s;
+}
+
+.ripple-cutout-sm {
+  height: 300px;
+  width: 300px;
+  opacity: 60%;
+  animation: fadeInSm linear 1s;
+}
+
+.ripple-cutout-md {
+  height: 350px;
+  width: 350px;
+  opacity: 50%;
+  animation: fadeInMd linear 1s;
+}
+
+.ripple-cutout-lg {
+  height: 400px;
+  width: 400px;
+  opacity: 40%;
+  animation: fadeInLg linear 1s;
+}
+
+@keyframes fadeInXs {
+  0% {
+    opacity: 0;
+    width: 200px;
+    height: 200px;
+  }
+  100% {
+    opacity: 70%;
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@keyframes fadeInSm {
+  0% {
+    opacity: 0;
+    width: 250px;
+    height: 250px;
+  }
+  100% {
+    opacity: 60%;
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@keyframes fadeInMd {
+  0% {
+    opacity: 0;
+    width: 300px;
+    height: 300px;
+  }
+  100% {
+    opacity: 50%;
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@keyframes fadeInLg {
+  0% {
+    opacity: 0;
+    width: 350px;
+    height: 350px;
+  }
+  100% {
+    opacity: 40%;
+    width: 400px;
+    height: 400px;
+  }
+}
