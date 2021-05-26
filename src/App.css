@@ -1,57 +1,53 @@
-.landing {
+:root {
+  --special-font: "Dawning of a New Day", cursive;
+  --gray: #707070;
+  --bg-gray: #E5E5E5;
+  --seasalt: #dbebeb;
+  --orange: #fee4bd;
+  --macha: #c8eca4;
+  --peach: #ffc3bd;
+}
+
+.pr-landing {
   display: flex;
-  height: 100vh;
-  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  height: 100vh;
+  animation: fadeIn linear 1.5s;
 }
 
-.content-box {
-  padding: 35px 20px 20px 20px;
-  height: auto;
-  max-width: 500px;
-  border-radius: 10px;
-  box-shadow: 0px 3px 10px 1px #cfcfcf; 
-  margin: 0px auto;
-  background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
-  color: white;
-  opacity: 0;
-  transition: 2.5s ease;
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.visible {
-  opacity: 1;
+
+.pr-landing__title {
+  font-family: var(--special-font);
+  font-size: 48pt;
+  color: var(--gray);
 }
 
-.title-box {
-  text-align: center;
-  font-family: 'Dawning of a New Day', cursive;
-  font-size: 55px;
+.pr-links {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
 }
 
-.fa-icon {
-  color: white;
+.pr-links__icon {
+  color: var(--gray);
+  transition: 0.1s ease-in-out;
 }
 
-.icons-box {
-  margin-top: 30px;
-}
-
-.icon-box {
-  padding: 15px;
-  margin: 7px ;
-  font-size: 25px;
-  /* box-shadow: 0px 3px 10px 1px #cfcfcf; */
-  display: inline-block;
-  width: 30px;
-}
-
-.icon-box:hover {
+.pr-links__icon:hover {
   cursor: pointer;
+  color: var(--peach);
 }
 
-.icon-box:hover .font-icon {
-  color: #fff7bf;
-}

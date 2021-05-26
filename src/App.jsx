@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import './normalize.css';
-import Landing from './components/Landing';
+import Landing from './routes/Landing';
 
 const App = () => {
   return (

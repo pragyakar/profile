@@ -3,6 +3,9 @@
 /* font-family: 'Dawning of a New Day', cursive;
 font-family: 'Roboto', sans-serif; */
 
+@import 'styles/tooltip.css';
+@import 'styles/cutouts.css';
+
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0px;
