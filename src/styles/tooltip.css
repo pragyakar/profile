@@ -1,0 +1,38 @@
+.__react_component_tooltip {
+  color: var(--gray) !important;
+}
+
+.__react_component_tooltip.tt-default {
+  background-color: var(--bg-gray) !important;
+}
+.__react_component_tooltip.tt-default::after  {
+  border-bottom-color: var(--bg-gray) !important;
+}
+
+.__react_component_tooltip.tt-peach {
+  background-color: var(--peach) !important;
+}
+.__react_component_tooltip.tt-peach::after  {
+  border-bottom-color: var(--peach) !important;
+}
+
+.__react_component_tooltip.tt-seasalt {
+  background-color: var(--seasalt) !important;
+}
+.__react_component_tooltip.tt-seasalt::after  {
+  border-bottom-color: var(--seasalt) !important;
+}
+
+.__react_component_tooltip.tt-macha {
+  background-color: var(--macha) !important;
+}
+.__react_component_tooltip.tt-macha::after  {
+  border-bottom-color: var(--macha) !important;
+}
+
+.__react_component_tooltip.tt-orange {
+  background-color: var(--orange) !important;
+}
+.__react_component_tooltip.tt-orange::after  {
+  border-bottom-color: var(--orange) !important;
+}

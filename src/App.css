@@ -1,10 +1,11 @@
 :root {
-  --special-font: 'Dawning of a New Day', cursive;
+  --special-font: "Dawning of a New Day", cursive;
   --gray: #707070;
-  --seasalt: #DBEBEB;
-  --orange: #FEE4BD;
-  --macha: #C8ECA4;
-  --peach: #FFC3BD;
+  --bg-gray: #E5E5E5;
+  --seasalt: #dbebeb;
+  --orange: #fee4bd;
+  --macha: #c8eca4;
+  --peach: #ffc3bd;
 }
 
 .pr-landing {
@@ -37,3 +38,4 @@
   cursor: pointer;
   color: var(--peach);
 }
+
