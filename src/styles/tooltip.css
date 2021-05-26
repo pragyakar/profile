@@ -1,5 +1,6 @@
 .__react_component_tooltip {
   color: var(--gray) !important;
+  border-radius: 5px;
 }
 
 .__react_component_tooltip.tt-default {
